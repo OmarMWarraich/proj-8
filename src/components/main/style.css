@@ -1,0 +1,19 @@
+.heading{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.heading h1{
+    padding-top: 20px;
+}
+
+.pic{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.pic img {
+    width: 100%;
+}

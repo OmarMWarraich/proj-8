@@ -1,0 +1,97 @@
+.true{
+    color: green;
+}
+.false{
+    color: red;
+}
+.display-div-launch{
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.display-data-launch{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.launch-box{
+    margin-bottom: 20px;
+    min-height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.launch-margin{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.heading-space{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.heading-space h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.launch-mission{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.launch-mission span{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.sp-two{
+    color: #0091EA;
+}
+.launch-site{
+    margin-bottom: 5px;
+}
+.launch-site span{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.sp-one{
+    color: #212121 !important;
+}
+.launch-status{
+    margin-bottom: 5px;
+}
+.launch-status span{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.launch-btn{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: #BDBDBD;
+    outline: none;
+}
+
+.launch-btu{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.launch-btu span{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+@media(max-width:500px){
+    .display-div-launch{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+}
